@@ -10,7 +10,13 @@
         android:id="@+id/textView"
         android:layout_width="258dp"
         android:layout_height="371dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="253dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="107dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
